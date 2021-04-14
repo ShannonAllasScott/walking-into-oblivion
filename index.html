@@ -9,7 +9,13 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Walking into Oblivion.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Walking into Oblivion" startnode="1" creator="Twine" creator-version="2.3.13" ifid="046ABEDC-5682-4067-9196-1560D530BF8E" zoom="1" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css"></style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="the end" tags="" position="620,296.5" size="100,100">(enchant:?page,(text-colour:#383333)+(background:#eed9b4))Amidst a [[glorious quiet]], the flowing of the river and the flicker of lanterns in the snow, [[Mitsuhide]] arrives at the home of [[Kagetsuchi]]. As he crosses the courtyard, he thinks of all they have seen [[together]]. He ascends the steps to find Kagetsuchi kneeling in meditation.
+<tw-storydata name="Walking into Oblivion" startnode="1" creator="Twine" creator-version="2.3.13" ifid="046ABEDC-5682-4067-9196-1560D530BF8E" zoom="1" format="Harlowe" format-version="3.2.1" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-link, tw-link:link, tw-link:visited (
+	color: red;
+)
+
+tw-link:focus, tw-link:hover, tw-link:active (
+	color: purple;
+)</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="the end" tags="" position="620,296.5" size="100,100">(enchant:?page,(text-colour:#383333)+(background:#eed9b4))Amidst a [[glorious quiet]], the flowing of the river and the flicker of lanterns in the snow, [[Mitsuhide]] arrives at the home of [[Kagetsuchi]]. As he crosses the courtyard, he thinks of all they have seen [[together]]. He ascends the steps to find Kagetsuchi kneeling in meditation.
 
 With a final thought of [[his God]], Mitsuhide pulls his dagger from the sleeve of his robe, little more than a slab of sharpened iron. With eyes closed, he lodges the blade deep in Kagetsuchi&#39;s back. Kagetsuchi&#39;s eyes shoot open as he turns to know his attacker, but upon seeing Mitsuhide the pain in them turns to [[pride]].</tw-passagedata><tw-passagedata pid="2" name="glorious quiet" tags="" position="832,45.5" size="100,100">Return to [[the end]].
 (if:(history:) contains &quot;his God&quot;)+(if:(history:) contains &quot;Mitsuhide&quot;)+(if:(history:) contains &quot;Kagetsuchi&quot;)+(if:(history:) contains &quot;together&quot;)+(if:(history:) contains &quot;pride&quot;)[Proceed to [[the beginning]].]</tw-passagedata><tw-passagedata pid="3" name="Mitsuhide" tags="" position="829,161.5" size="100,100">Return to [[the end]].
@@ -17,7 +23,21 @@ With a final thought of [[his God]], Mitsuhide pulls his dagger from the sleeve 
 (if:(history:) contains &quot;glorious quiet&quot;)+(if:(history:) contains &quot;Mitsuhide&quot;)+(if:(history:) contains &quot;his God&quot;)+(if:(history:) contains &quot;together&quot;)+(if:(history:) contains &quot;pride&quot;)[Proceed to [[the beginning]].]</tw-passagedata><tw-passagedata pid="5" name="together" tags="" position="827,411.5" size="100,100">Return to [[the end]].
 (if:(history:) contains &quot;glorious quiet&quot;)+(if:(history:) contains &quot;Mitsuhide&quot;)+(if:(history:) contains &quot;Kagetsuchi&quot;)+(if:(history:) contains &quot;his God&quot;)+(if:(history:) contains &quot;pride&quot;)[Proceed to [[the beginning]].]</tw-passagedata><tw-passagedata pid="6" name="his God" tags="" position="814,531.5" size="100,100">Return to [[the end]].
 (if:(history:) contains &quot;glorious quiet&quot;)+(if:(history:) contains &quot;Mitsuhide&quot;)+(if:(history:) contains &quot;Kagetsuchi&quot;)+(if:(history:) contains &quot;together&quot;)+(if:(history:) contains &quot;pride&quot;)[Proceed to [[the beginning]].]</tw-passagedata><tw-passagedata pid="7" name="pride" tags="" position="777,669.5" size="100,100">Return to [[the end]].
-(if:(history:) contains &quot;glorious quiet&quot;)+(if:(history:) contains &quot;Mitsuhide&quot;)+(if:(history:) contains &quot;Kagetsuchi&quot;)+(if:(history:) contains &quot;together&quot;)+(if:(history:) contains &quot;his God&quot;)[Proceed to [[the beginning]].]</tw-passagedata><tw-passagedata pid="8" name="the beginning" tags="" position="1112,461.5" size="100,100">Double-click this passage to edit it.</tw-passagedata></tw-storydata>
+(if:(history:) contains &quot;glorious quiet&quot;)+(if:(history:) contains &quot;Mitsuhide&quot;)+(if:(history:) contains &quot;Kagetsuchi&quot;)+(if:(history:) contains &quot;together&quot;)+(if:(history:) contains &quot;his God&quot;)[Proceed to [[the beginning]].]</tw-passagedata><tw-passagedata pid="8" name="the beginning" tags="" position="1112,461.5" size="100,100">//You can see it, can&#39;t you?
+
+The mountains tearing open, giving birth to our newly awakened master.
+
+His True Silence drowning out the pathetic, false quiet we have created to pacify Him.
+
+Peace restored.
+
+On the backs of your eyes, do you not see Him smiling in His sleep as our provocations make Him stir?//
+
+-------------
+
+Mitsuhide pries his dagger from his mentor&#39;s spine. Kagetsuchi falls, landing gently on his side. As Mitsuhide rises to leave, the earth trembles happily beneath him.
+
+His God&#39;s sleep has been made shallow. The Awakening has just begun.</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,i=!1,a=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){i=!0,a=e}finally{try{!r&&s.return&&s.return()}finally{if(i)throw a}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
